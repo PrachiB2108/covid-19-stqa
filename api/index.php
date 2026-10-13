@@ -8,7 +8,7 @@ $path = rawurldecode(trim($path, '/'));
 if ($path === '') $path = 'index.php';
 
 $publicScripts = [
-    'index.php', 'about.php', 'symptoms.php', 'prevention.php', 'vaccination.php',
+    'index.php', 'about.php', 'symptoms.php', 'prevention.php', 'vaccination.php', 'testing.php',
     'statistics.php', 'comments.php', 'contact.php', 'login.php', 'register.php',
     'dashboard.php', 'logout.php',
     'actions/register_action.php', 'actions/login_action.php',

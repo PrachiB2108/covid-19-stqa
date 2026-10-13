@@ -32,7 +32,7 @@ $reports = [
     </div>
     <div class="btn-row testing-actions">
       <a class="btn" href="#recorded-runs">View recorded runs</a>
-      <a class="btn btn-outline" href="<?= e(url('tests/test-execution-report.md')) ?>">Open full execution report</a>
+      <a class="btn btn-outline" href="<?= e('https://github.com/PrachiB2108/covid-19-stqa/blob/main/tests/test-execution-report.md') ?>">Open full execution report</a>
       <button class="btn btn-ghost" type="button" onclick="window.print()">Print / Save PDF</button>
     </div>
   </div>
@@ -97,7 +97,7 @@ $reports = [
         </tbody>
       </table>
     </div>
-    <p class="testing-footnote">Coverage was not measured. Full environments, check details, and limitations are documented in the <a href="<?= e(url('tests/test-execution-report.md')) ?>">execution report</a>.</p>
+    <p class="testing-footnote">Coverage was not measured. Full environments, check details, and limitations are documented in the <a href="<?= e('https://github.com/PrachiB2108/covid-19-stqa/blob/main/tests/test-execution-report.md') ?>">execution report</a>.</p>
   </div>
 </section>
 
@@ -109,7 +109,7 @@ $reports = [
     </div>
     <div class="testing-scope-grid">
       <?php foreach ($caseGroups as [$label, $count, $path]): ?>
-        <a class="testing-scope-card" href="<?= e(url($path)) ?>">
+        <a class="testing-scope-card" href="<?= e('https://github.com/PrachiB2108/covid-19-stqa/blob/main/' . $path) ?>">
           <span><?= e($label) ?></span><strong><?= (int)$count ?></strong><span class="testing-scope-link">View cases <span aria-hidden="true">→</span></span>
         </a>
       <?php endforeach; ?>
@@ -123,14 +123,14 @@ $reports = [
       <p class="eyebrow">Issues and follow-up</p>
       <h2 id="quality-notes-title">Defects are part of the evidence</h2>
       <p>The recorded pre-check found one application defect, BUG-001, which was fixed and retested. A test expectation was also corrected. Manual defect counts remain pending until the planned manual tests are run.</p>
-      <a class="text-link" href="<?= e(url('docs/bug-reports.md')) ?>">Review the defect report <span aria-hidden="true">→</span></a>
+      <a class="text-link" href="<?= e('https://github.com/PrachiB2108/covid-19-stqa/blob/main/docs/bug-reports.md') ?>">Review the defect report <span aria-hidden="true">→</span></a>
     </div>
     <div>
       <p class="eyebrow">Project documentation</p>
       <h2>Explore the test records</h2>
       <ul class="testing-report-links">
         <?php foreach ($reports as [$label, $description, $path]): ?>
-          <li><a href="<?= e(url($path)) ?>"><strong><?= e($label) ?></strong><span><?= e($description) ?></span></a></li>
+          <li><a href="<?= e('https://github.com/PrachiB2108/covid-19-stqa/blob/main/' . $path) ?>"><strong><?= e($label) ?></strong><span><?= e($description) ?></span></a></li>
         <?php endforeach; ?>
       </ul>
     </div>

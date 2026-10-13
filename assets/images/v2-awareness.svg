@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="400" viewBox="0 0 480 400" role="img">
+  <rect width="480" height="400" rx="14" fill="#0d1118"/>
+  <rect x="60" y="318" width="360" height="6" rx="3" fill="#252c39"/>
+  <circle cx="150" cy="170" r="30" fill="#3ee8b5"/>
+  <rect x="112" y="210" width="76" height="110" rx="34" fill="#3ee8b5" fill-opacity="0.25" stroke="#3ee8b5" stroke-width="3"/>
+  <circle cx="240" cy="140" r="34" fill="#ff8a4c"/>
+  <rect x="196" y="186" width="88" height="134" rx="40" fill="#ff8a4c" fill-opacity="0.25" stroke="#ff8a4c" stroke-width="3"/>
+  <circle cx="330" cy="172" r="28" fill="#7d8bff"/>
+  <rect x="296" y="210" width="68" height="110" rx="32" fill="#7d8bff" fill-opacity="0.25" stroke="#7d8bff" stroke-width="3"/>
+  <rect x="290" y="50" width="130" height="56" rx="12" fill="#171c25" stroke="#3ee8b5" stroke-width="2.5"/>
+  <path d="M320 106 L312 124 L336 106" fill="#171c25" stroke="#3ee8b5" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="318" cy="78" r="5" fill="#3ee8b5"/>
+  <circle cx="355" cy="78" r="5" fill="#3ee8b5"/>
+  <circle cx="392" cy="78" r="5" fill="#3ee8b5"/>
+</svg>

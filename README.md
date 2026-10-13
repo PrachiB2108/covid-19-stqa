@@ -80,6 +80,8 @@ covid-portal/
 
 The project includes comprehensive software testing documentation.
 
+For the full project walkthrough—including page descriptions, local SQLite setup, testing strategy, and Vercel + Neon deployment—see [Explanation.md](Explanation.md).
+
 For a presentation-friendly overview in the running app, open `testing.php` (select **Testing** in the main navigation). It summarizes recorded automated checks and links to the detailed reports. Manual cases remain pending until they are actually run and recorded.
 
 ### Automated results
@@ -128,8 +130,8 @@ Detailed results are available in `tests/test-execution-report.md`.
 ### 1. Clone
 
 ```bash
-git clone https://github.com/rutvilandge/covid-portal.git
-cd covid-portal
+git clone https://github.com/PrachiB2108/covid-19-stqa.git
+cd covid-19-stqa
 ```
 
 ### 2. Configure PostgreSQL (optional for local demos)

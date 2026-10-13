@@ -121,7 +121,7 @@ Detailed results are available in `tests/test-execution-report.md`.
 
 ## 🚀 Live Demo
 
-**https://covid-portal-62z59vcza-rutvilandges-projects.vercel.app/**
+**https://covid-19-stqa.vercel.app/**
 
 ## ▶️ Local Setup
 
